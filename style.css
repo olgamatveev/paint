@@ -16,6 +16,7 @@ body{
     height: 80%;
     border: black 5px solid;
     margin: auto;
+    position: relative;
 }
 
 #canvas{
