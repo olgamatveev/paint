@@ -8,6 +8,9 @@ let displayHeight = cnv.clientHeight;
 cnv.width = displayWidth;
 cnv.height = displayHeight;
 
+document.getElementById("color").oninput = function(){
+    color = this.value;
+}
 
 cnv.onmousedown = () => {
     setTimeout(() => {
